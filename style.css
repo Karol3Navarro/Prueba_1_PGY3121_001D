@@ -2,3 +2,17 @@
 .dropdown:hover .dropdown-menu {
     display: block;
 }
+/*Botones de arriba*/
+.contendorBoton{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.btnCarritoLogin{
+    display: flex;
+    margin-right: 30px;
+}
+.btnBuscar{
+    margin-left: 10px;
+}
