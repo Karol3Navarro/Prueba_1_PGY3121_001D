@@ -36,6 +36,133 @@
                             <div class="mb-3">
                                 <label for="username" class="form-label">Nombre de usuario</label>
                                 <input type="text" class="form-control" id="username" placeholder="Ingresa tu nombre de usuario">
+                    <form class="form">
+                        <div class="mb-3">
+                            <label for="username" class="form-label">Nombre de usuario</label>
+                            <input type="text" class="form-control" id="username" placeholder="Ingresa tu nombre de usuario">
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Contraseña</label>
+                            <input type="password" class="form-control" id="password" placeholder="Ingresa tu contraseña">
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-secondary">Iniciar sesión</button>
+    
+                    </form>
+                </div>
+            </div>
+            
+        
+          
+        </header>
+    </div>
+<!--Carrito de compras barra desplegable-->
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasRightLabel">Carrito</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+        <p>Tu carrito está vacío</p>
+    </div>
+    <div class="d-grid gap-2 col-6 mx-auto">
+        <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Finalizar compra
+        </button>
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Confirmar compra</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                ¿Estás seguro de que deseas finalizar tu compra?
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                <a href="carrito.html"><button type="button"  class="btn btn-primary">Confirmar</button></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+            <!--Barra 2-->
+            <div>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid" style="background-color: #7888AF;">
+                    <img src="img/beagle.png" alt="" width="40" height="40">
+                    <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+                        
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html" style="color:white;">
+                                    <img src="img/animales (1).png" alt="Inicio" style="height: 20px; margin-right: 5px;">Inicio
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="nosotros.html" style="color:white;">
+                                    <img src="/img/animales (1).png" alt="Ver todo" style="height: 20px; margin-right: 5px;">Nosotros
+                                </a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: white;">
+                                    <img src="/img/animales (1).png" alt="Adornos" style="height: 20px; margin-right: 5px;">Accesorios
+                                </a>
+                                <ul class="dropdown-menu" style="background-color:#7888AF;">
+                                    <li><a class="dropdown-item" href="#" style="color: white;">Alcancias</a></li>
+                                    <li><a class="dropdown-item" href="#" style="color: white;">banderines</a></li>
+                                    <li><a class="dropdown-item" href="" style="color: white;">Imanes</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: white;">
+                                    <img src="/img/animales (1).png" alt="Libreria" style="height: 20px; margin-right: 5px;">Servicios
+                                </a>
+                                <ul class="dropdown-menu" style="background-color: #7888AF;">
+                                    <li><a class="dropdown-item" href="" style="color: white;">Carpetas</a></li>
+                                    <li><a class="dropdown-item" href="#" style="color: white;">Croqueras</a></li>
+                                    <li><a class="dropdown-item" href="#" style="color: white;">Correctores</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" style="color: white;">
+                                    <img src="/img/animales (1).png" alt="Nosotros" style="height: 20px; margin-right: 5px;">Adopta
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" style="color: white;">
+                                    <img src="/img/animales (1).png" alt="Nosotros" style="height: 20px; margin-right: 5px;">Contactanos
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <img src="img/gato.png" alt="" width="40" height="40" style="background-position: center;">
+                    
+                </div>
+            </nav>
+            </div>
+        </div>
+            <!--Carrusel-->
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                  
+                            <img src="img/RUWAC5JSHFFUBIGS4ROI5II4L4.jpg" class="d-block w-100" alt="..." height="600" width="200"> 
+                            <div class="carousel-caption d-none d-md-block" style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); padding: 20px;">
+                                <h5 style="font-size: 30px; color:white;">Comprometidos con nuestros peludos</h5>
+                                <p style="color: white;">Puedes ser parte de esta hermosa familia.</p>
+                                <a href="otra_pagina.html">
+                                    <button class="btn btn-primary me-md-2" type="button">Suscríbete</button>
+                                </a>
                             </div>
                             <div class="mb-3">
                                 <label for="password" class="form-label">Contraseña</label>
