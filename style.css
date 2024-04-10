@@ -16,3 +16,6 @@
 .btnBuscar{
     margin-left: 10px;
 }
+.carruselCard{
+    display: flex;
+}
