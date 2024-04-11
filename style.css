@@ -27,8 +27,6 @@
 .img1{
     display: inline-block;
     margin: 20px;
-    
-
 }
 
 footer {
@@ -37,13 +35,14 @@ footer {
     text-align: left;
     margin-top: 20px;
   }
-  
- 
-  
-  .social-icons li {
+
+.social-icons li {
     display: inline-block;
     margin-right: 10px; 
-  }
-  
- 
- 
+}
+.fundacion{
+    margin-top: -60px;
+}
+.btn-modal{
+    text-align: center;
+}
