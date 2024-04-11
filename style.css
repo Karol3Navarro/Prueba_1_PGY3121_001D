@@ -30,3 +30,20 @@
     
 
 }
+
+footer {
+    background-color:#7888AF;
+    padding: 6px 0;
+    text-align: left;
+    margin-top: 20px;
+  }
+  
+ 
+  
+  .social-icons li {
+    display: inline-block;
+    margin-right: 10px; 
+  }
+  
+ 
+ 
