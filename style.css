@@ -18,4 +18,8 @@
 }
 .carruselCard{
     display: flex;
+    justify-content: center;
+}
+.Ccard{
+    margin-right: 20px;
 }
