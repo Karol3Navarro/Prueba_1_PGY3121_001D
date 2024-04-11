@@ -142,8 +142,8 @@
        <li>Vacunas</li>
     </ul>
     <!-- Modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#trackerModal"> 
-    <i class="fa fa-plus"></i> Proyecto
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#trackerModal" style="margin-left: 730px;"> 
+    <i class="fa fa-plus"></i> Quiero ser socio
 </button>
 
 <div class="modal fade" id="trackerModal" tabindex="-1" aria-labelledby="nuevoProyecto" aria-hidden="true">
@@ -152,7 +152,7 @@
     <div class="modal-content">
 
       <div class="modal-header">
-        <h2 class="modal-title" id="nuevoProyecto">Nuevo Proyecto</h2>
+        <h2 class="modal-title" id="nuevoProyecto">Socio</h2>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span>&times;</span>
                 </button>
@@ -167,40 +167,44 @@
                 <input type="text" class="form-control" id="nombre" required>
               </div>
               <div class="form-group col-md-6">
-                <label for="descripcion">Descripción</label>
+                <label for="descripcion">Monto a donar</label>
                 <input type="text" class="form-control" id="descripcion" required>
               </div>
             </div>
             <div class="row">
               <div class="form-group col-md-6">
-                <label for="observaciones">Observaciones</label>
+                <label for="observaciones">Telefono</label>
                 <input type="text" class="form-control" id="observaciones">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="nombre">Email</label>
+                <input type="text" class="form-control" id="nombre" required>
               </div>
               <div class="form-group col-md-3">
                 <label for="fecha_ini">Fecha Inicio</label>
                 <input type="date" class="form-control" id="fecha_ini" required>
               </div>
-              <div class="form-group col-md-3">
-                <label for="fecha_fin">Fecha Fin</label>
-                <input type="date" class="form-control" id="fecha_fin">
-              </div>
+              
             </div>
-            <div class="row">
-              <div class="form-group col-md-2">
-                <label for="site">Site</label>
-                <select class="custom-select mr-sm-2" id="site" required>
-                  <option selected>Elegir Site...</option>
-                  <option value=""></option>
-                </select>
+            <div class="form-group col-md-6">
+                <label for="nombre">Socio o Padrino</label>
+                <select class="form-select" aria-label="Default select example" style="width: 700px;">
+                    <option selected>Seleccione una opcion</option>
+                    <option value="1">Socio</option>
+                    <option value="2">Padrino</option>
+                  </select>
               </div>
-            </div>
+                <div class="form-group col-md-6">
+                    <label for="nombre">Nombre de la mascota que desea adoptar o apadrinar</label>
+                    <input type="text" class="form-control" id="nombre" required>
+                  </div>
           </form>
         </div>
       </div>
       <!--.modal-body-->
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-        <button type="button" class="btn btn-primary">Agregar</button>
+        <button type="button" class="btn btn-primary">Ser socio</button>
       </div>
     </div>
     <!--.modal-content-->
